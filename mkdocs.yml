@@ -1,0 +1,26 @@
+# 1. 站点基础信息 (Site Information)
+site_name: 陈闻天的个人主页
+site_description: 记录具身智能研究、机器人项目与技术博客
+site_author: Wentian Chen
+
+# 2. 主题与功能配置 (Theme Configuration)
+theme:
+  name: material
+  language: zh # 设置语言为中文，优化搜索分词和界面提示
+  features:
+    - search.suggest       # 搜索输入时显示补全建议
+    - search.highlight     # 搜索结果高亮显示
+    - navigation.tabs      # 顶部显示一级导航栏
+    - navigation.top       # 开启“回到顶部”按钮（文章长时非常实用）
+    - toc.follow           # 右侧目录高亮会跟随你在文章中的滚动自动切换
+    - content.code.copy    # 允许一键复制你的代码块
+
+# 3. 网站导航目录结构 (Navigation Structure)
+nav:
+  - 首页: index.md
+  - 个人简历: resume.md
+  - 项目展示:
+    - VLA-Adapter 视觉语言动作模型: projects/text.md
+  - 教程博客:
+    - 博客首页: blog/index.md
+    - 配置CUDA: blog/config_cuda.md
