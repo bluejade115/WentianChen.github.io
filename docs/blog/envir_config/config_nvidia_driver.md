@@ -26,10 +26,13 @@
 ```
 # 列出可安装的驱动版本 
 sudo ubuntu-drivers list
+
 # 方法一：自动检测最适合电脑的版本进行安装
 sudo ubuntu-drivers install
+
 # 指定想安装的版本，以535为例
 sudo ubuntu-drivers install nvidia:535
+
 # 指定想安装的版本，以535-open为例
 sudo ubuntu-drivers install nvidia:535-open
 ```
